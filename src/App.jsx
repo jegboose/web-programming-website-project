@@ -5,10 +5,12 @@ import GetHelpPage from './pages/GetHelpPage'
 import ReportPreventPage from './pages/ReportPreventPage'
 import StoriesPage from './pages/StoriesPage'
 import './styles/App.css'
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <BrowserRouter>
+        <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/what-is-cyberbullying" element={<WhatIsCyberbullyingPage />} />
