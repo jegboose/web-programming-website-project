@@ -1,0 +1,53 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+ 
+/* Responsive: 2 columns on tablet, 1 on mobile */
+@media (max-width: 720px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+ 
+/* --- Individual card --- */
+.type-card {
+  background: #ffffff;
+  border: 1px solid #d3d1c7;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+ 
+.type-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+ 
+/* --- Type name label --- */
+.type-name {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a4a6b;
+}
+ 
+/* --- Description paragraph --- */
+.type-card p {
+  font-size: 13px;
+  color: #5f5e5a;
+  line-height: 1.6;
+  margin: 0;
+}
