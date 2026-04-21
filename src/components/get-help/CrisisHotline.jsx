@@ -1,7 +1,7 @@
 export default function CrisisHotline() {
     return (
         <section>
-        <h1>Get Help / Resources</h1>
+        <h1>Get Help / Resources</h1><br></br>
         <h2>Crisis Hotlines</h2>
         <p>
           If you or a loved one are experiencing immediate distress from cyberbullying,
