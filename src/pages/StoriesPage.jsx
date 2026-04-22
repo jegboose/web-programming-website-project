@@ -1,11 +1,14 @@
 // Stories / Blog — Ahmed
 // Personal stories from survivors, expert articles, and news updates related to cyberbullying awareness
 
+import StoriesHero from "../components/Stories/StoriesHero.jsx";
+import StoriesGrid from "../components/Stories/StoriesGrid.jsx";
+
 export default function StoriesPage() {
   return (
     <main>
-      <h1>Stories / Blog</h1>
-      <p>Ahmed builds this page.</p>
+      <StoriesHero/>
+        <StoriesGrid/>
     </main>
   )
 }
