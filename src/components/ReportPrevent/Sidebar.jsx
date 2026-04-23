@@ -20,6 +20,10 @@ function Sidebar({onSelect, selected}) { // is a sidebar function that will sele
                         </div>
                     )}
             </div>
+
+            <div className="sidebar-title" onClick={() => onSelect("prevent")}>
+                How to Prevent
+            </div>
         </aside>
     )
 }

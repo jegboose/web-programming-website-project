@@ -15,8 +15,8 @@ export default function ReportPreventPage() {
     <div style={{display : 'flex'}}>
       <Sidebar onSelect={setSelected} />
     <main className="report-content">
-      <h1>{selected ? selected: "How to Report & Prevent"}</h1>
-      <StepsList platform={selected}/>
+      <h1>{selected === "prevent" ? "How to Prevent" : selected ? selected : "How to Report & Prevent"}</h1>
+      {selected === "prevent" ? <p>Prevention tips coming soon</p> : <StepsList platform={selected}/>}
     </main>
     </div>
   )
