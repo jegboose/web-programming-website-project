@@ -28,7 +28,17 @@
   border-left: 3px solid transparent;
   padding-left: 0.5rem;
   font-weight: normal;
+  width: 100%;
+  outline: none;
   color: #bbb;
+}
+
+.sidebar-btn:hover {
+  background-color: rgba(0, 86, 179, 0.1);
+}
+
+.sidebar-btn:focus {
+  outline: none;
 }
 
 .sidebar-btn.active {
