@@ -52,3 +52,20 @@
 .report-content h2 {
     text-align: center;
 }
+
+.page-layout {
+    display: flex;
+    text-align: left;
+}
+
+.report-content p {
+    color: white;
+}
+
+.platform-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}

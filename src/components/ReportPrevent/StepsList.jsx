@@ -27,7 +27,7 @@ const stepsData = {
 
     Discord:  {
         icon: "📸",
-        video: "https://www.youtube.com/embed/LII-D4tIn7A?si=FV1Qxlm9eRyo6Ub-",
+        video: "https://www.youtube.com/embed/zPwpHt5P38c?si=ZHNCJX8LXvKOIkWZ",
         steps: [
         {text: "First, go to the account you want to report.", /* image */},
         {text: "Tap the three dots in top right corner.", /* image */},

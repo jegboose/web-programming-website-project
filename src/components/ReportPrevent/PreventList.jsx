@@ -1,4 +1,4 @@
-const tips = []
+
 
 function PreventList() {
     return (
