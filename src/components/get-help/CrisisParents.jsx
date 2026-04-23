@@ -1,5 +1,5 @@
 import parentalHelp from "../../assets/get-help-images/parentalHelp.jpg"
-import "./CrisisParents.css"
+import "./CrisisTemplate.css"
 export default function CrisisParents() {
     return (
         <section>
@@ -7,7 +7,7 @@ export default function CrisisParents() {
             <h2>Cyberbullying Parental advice:</h2>
             <h3>Each case of cyber bullying is different, and all should be taken seriously. The following advice may help: </h3>
 
-            <ul>
+            <ul className="approach-list">
                 <li><strong>Let them talk</strong> -
                 Allow the child space to share what they want in their own way and listen.Try to avoid the temptation to interrupt because it's their own time to share. Only advice if necessary, but let them do most of the talking.
                 If there's one sure way to put a child off seeking help, it's by making them feel embarrased or ashamed about why they're asking for help in the first place.

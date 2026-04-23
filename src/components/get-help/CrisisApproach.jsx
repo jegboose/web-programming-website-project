@@ -1,3 +1,5 @@
+import "./CrisisTemplate.css"
+
 export default function CrisisApproach() {
     return (
         <section>
@@ -12,7 +14,7 @@ export default function CrisisApproach() {
             />
             <br />
             <h2>Victim of Cyberbullying? Here's What to Do</h2>
-            <ol>
+            <ol className="approach-list">
                 <li><strong>Document Everything</strong> -
                     Keep a copy of all instances of online harassment. Either take a screenshot or print the pages. Try to get the messages as well as the profile pages the abuse is coming from. This will be useful evidence for the police or social media platforms if the harassment escalates. It also ensures you have a copy if the perpetrator deletes their posts and profile.
                 </li><br />
