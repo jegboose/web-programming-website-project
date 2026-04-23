@@ -5,9 +5,8 @@ import './Navbar.css'
 function Navbar() {
     return (
         <nav className="navbar">
-            <img src={logo} alt="Perventcyberbullying Logo" className="navbar-logo" />
+            <Link to="/"><img src={logo} alt="Pervent Cyberbullying Logo" className="navbar-logo" /></Link>
             <ul className="navbar-links">
-                <li><Link to="/">Home</Link></li>
                 <li><Link to="/what-is-cyberbullying">What Is It?</Link></li>
                 <li><Link to="/get-help">Get Help</Link></li>
                 <li><Link to="/report-prevent">Report & Prevent</Link></li>

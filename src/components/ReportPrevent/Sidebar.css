@@ -1,0 +1,54 @@
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    padding: 20px;
+}
+
+.sidebar-item {
+    padding: 12px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar-item button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.sidebar-dropdown div {
+    padding: 10px 16px;
+    color: #aaaaaa;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sidebar-dropdown div:hover {
+    color: white;
+}
+
+.report-content {
+    padding: 40px;
+    flex: 1;
+    text-align: left;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 0;
+}
+
+.report-content h1 {
+    text-align: center;
+}
+
+.report-content h2 {
+    text-align: center;
+}
