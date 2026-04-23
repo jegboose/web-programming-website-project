@@ -19,7 +19,7 @@ export default function ReportPreventPage() {
         <title> How to Report and Prevent Cyberbullying | Prevent Cyberbullying</title>
         <meta name="description" content="Learn how to report cyberbullying on Social Media Platforms."/>
         <meta name="keywords" content="cyberbullying, report, prevent, instagram, snapchat"/>
-        <meta name="authro" content="Edwin Islas Aguirre"/>
+        <meta name="author" content="Edwin Islas Aguirre"/>
       </Helmet>
 
 
