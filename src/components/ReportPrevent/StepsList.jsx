@@ -1,6 +1,9 @@
+// Data for steps list for how to report on social media platform 
+
 const stepsData = { 
     Instagram: {
         icon: "📸",
+        video: "https://www.youtube.com/embed/7ZdDVGpSJT0",
         steps: [
         {text: "First, go to the account you want to report.", /* image */},
         {text: "Tap the three dots in top right corner.", /* image */},
@@ -12,6 +15,7 @@ const stepsData = {
 
     Snapchat:  {
         icon: "📸",
+        video: "https://www.youtube.com/embed/puKpLESKLHk?si=w3kReFyQi20XFfIr",
         steps: [
         {text: "First, go to the account you want to report.", /* image */},
         {text: "Tap the three dots in top right corner.", /* image */},
@@ -23,6 +27,7 @@ const stepsData = {
 
     Discord:  {
         icon: "📸",
+        video: "https://www.youtube.com/embed/LII-D4tIn7A?si=FV1Qxlm9eRyo6Ub-",
         steps: [
         {text: "First, go to the account you want to report.", /* image */},
         {text: "Tap the three dots in top right corner.", /* image */},
@@ -34,6 +39,7 @@ const stepsData = {
 
     X:  {
         icon: "📸",
+        video: "https://www.youtube.com/embed/uCxKRhJkzbE?si=dxFYayt24n-dzdv0",
         steps: [
         {text: "First, go to the account you want to report.", /* image */},
         {text: "Tap the three dots in top right corner.", /* image */},
@@ -52,11 +58,22 @@ function StepsList({platform}) {
     return (
         <div>
             <h2>How to Report on {platform}</h2>
-                {steps.map((step, index) => (
+                {steps.map((step, index) => ( 
                     <div key={index}>
                     <p>{step.text}</p>
                     </div>
                 ))}
+
+                {stepsData[platform].video && (
+                    <iframe
+                        width="560"
+                        height="315"
+                        src={stepsData[platform].video}
+                        title="How to report video"
+                        allowFullScreen
+                        />
+                )}
+
         </div>
     )
 }
