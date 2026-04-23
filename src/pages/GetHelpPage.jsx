@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./GetHelpPage.css"
 import CrisisApproach from "../components/get-help/CrisisApproach"
 import CrisisHotline from "../components/get-help/CrisisHotline"
 import CrisisParents from "../components/get-help/CrisisParents"
@@ -22,13 +23,13 @@ export default function GetHelpPage() {
 
   return (
     // Flex layout: sidebar on the left, content on the right
-    <main style={{ display: "flex", gap: "2rem", padding: "2rem" }}>
+    <main className="get-help-layout">
 
       {/* Sidebar component — handles all navigation button rendering */}
       <GetHelpSidebar sections={sections} active={active} setActive={setActive} />
 
       {/* Content area — only the active section's component renders here */}
-      <div style={{ flex: 1 }}>
+      <div className="get-help-content">
         {current.component}
       </div>
 

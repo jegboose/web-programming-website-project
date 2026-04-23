@@ -7,12 +7,13 @@ export default function CrisisApproach() {
                 height="315"
                 src="https://www.youtube.com/embed/64LNwrd0fHg"
                 title="Stopbullying.gov video"
+                aria-label="Video about cyberbullying awareness"
                 allowFullScreen
             />
             <br />
             <h2>Are You or a loved one a Victim of Cyberbullying?</h2>
             <h3>Online bullying and harrasment - First Steps:</h3>
-            <ul>
+            <ol>
                 <li><strong>Document Everything</strong> -
                     Keep a copy of all instances of online harassment. Either take a screenshot or print the pages. Try to get the messages as well as the profile pages the abuse is coming from. This will be useful evidence for the police or social media platforms if the harassment escalates. It also ensures you have a copy if the perpetrator deletes their posts and profile.
                 </li><br />
@@ -25,7 +26,7 @@ export default function CrisisApproach() {
                 <li><strong>It's not your fault</strong> -
                     Perpetrators of online abuse can be people you know or complete strangers. Due to emotional and mental health issues these individuals spent time trying to wind people up and cause distress. It is not your fault. Speak to someone close to you about the abuse and contact a specialist victim support charity if you want expert emotional support.
                 </li>
-            </ul>
+            </ol>
         </section>
     )
 }

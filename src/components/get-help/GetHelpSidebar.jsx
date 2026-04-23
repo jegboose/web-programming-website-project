@@ -13,6 +13,7 @@ export default function GetHelpSidebar({ sections, active, setActive }) {
             <button
               onClick={() => setActive(s.key)} // sets the clicked section as active
               className={`sidebar-btn ${active === s.key ? "active" : ""}`}
+              aria-current={active === s.key ? "page" : undefined}
             >
               {s.label}
             </button>
