@@ -3,6 +3,8 @@
 import {useState} from 'react'
 import PlatformButton from "../components/ReportPrevent/PlatformButton"
 import Sidebar from "../components/ReportPrevent/Sidebar"
+import StepsList from '../components/ReportPrevent/StepsList'
+import "../components/ReportPrevent/Sidebar.css"
 
 
 export default function ReportPreventPage() {
@@ -12,9 +14,9 @@ export default function ReportPreventPage() {
   return (
     <div style={{display : 'flex'}}>
       <Sidebar onSelect={setSelected} />
-    <main>
-      <h1>How to Report & Prevent</h1>
-      <p>TESTING: You selected: {selected}</p>  
+    <main className="report-content">
+      <h1>{selected ? selected: "How to Report & Prevent"}</h1>
+      <StepsList platform={selected}/>
     </main>
     </div>
   )
