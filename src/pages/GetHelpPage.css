@@ -1,0 +1,9 @@
+.get-help-layout {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.get-help-content {
+  flex: 1;
+}

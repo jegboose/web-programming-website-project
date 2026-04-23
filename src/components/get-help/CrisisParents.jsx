@@ -1,6 +1,9 @@
+import parentalHelp from "../../assets/get-help-images/parentalHelp.jpg"
+import "./CrisisParents.css"
 export default function CrisisParents() {
     return (
         <section>
+            <img src={parentalHelp} alt="Parental help guide" className="parental-img"/> 
             <h2>Cyberbullying Parental advice:</h2>
             <h3>Each case of cyber bullying is different, and all should be taken seriously. The following advice may help: </h3>
 

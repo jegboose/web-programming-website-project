@@ -1,0 +1,23 @@
+.crisis-banner {
+  background-color: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.crisis-banner-text {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.crisis-btn {
+  background-color: white;
+  color: #c0392b;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+}

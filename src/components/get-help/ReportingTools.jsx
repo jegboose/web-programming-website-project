@@ -1,10 +1,11 @@
-//Just added this reporting tool componet
+import "./ReportingTools.css"
+
 export default function ReportingTools() {
     return (
         <section>
             <h2>Report Cyberbullying</h2>
 
-            <ul style={{ textAlign: "left" }}>
+            <ul className="reporting-list">
                 <li><strong><a href="https://www.stopitsolutions.com/solutions/anonymous-reporting-system" target="_blank" rel="noopener noreferrer">STOPit</a></strong> — A mobile app that lets students anonymously report bullying, threats, or misconduct directly to school administrators in real time.</li><br />
 
                 <li><strong><a href="https://www.anonymousalerts.com/anonymous-reporting-system/" target="_blank" rel="noopener noreferrer">Anonymous Alerts®</a></strong> — A web and app-based tip system where students can submit anonymous reports via text, web form, or app; used widely by K-12 schools.</li><br />
