@@ -16,6 +16,24 @@ export default function CrisisHotline() {
                 the <a href="https://www.crisistextline.org" target="_blank" rel="noopener noreferrer">Crisis Text Line</a>, or contact the <a href="https://www.stompoutbullying.org/helpchat" target="_blank" rel="noopener noreferrer">Stomp Out Bullying HelpChat Line</a>. These
                 services are free, confidential, and available 24/7.
             </p>
+
+            <br /><p>
+                For LGBTQ+ youth, contact the <strong>Trevor Project</strong> at{" "}
+                <strong>1-866-488-7386</strong> or text <strong>"START"</strong> to{" "}
+                <strong>678-678</strong>. Available 24/7.
+            </p>
+
+            <br /><p>
+                To report online child exploitation or abuse, call the{" "}
+                <strong>CyberTipline</strong> at <strong>1-800-843-5678</strong>.
+            </p>
+
+            <p>
+                For mental health support, call the{" "}
+                <strong>SAMHSA Helpline</strong> at <strong>1-800-662-4357</strong>.
+                Free, confidential, and available 24/7.
+            </p>
+
         </section>
     )
 }
