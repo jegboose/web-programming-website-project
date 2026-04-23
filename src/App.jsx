@@ -6,6 +6,7 @@ import ReportPreventPage from './pages/ReportPreventPage'
 import StoriesPage from './pages/StoriesPage'
 import './styles/App.css'
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/report-prevent" element={<ReportPreventPage />} />
         <Route path="/stories" element={<StoriesPage />} />
       </Routes>
+        <Footer />
     </BrowserRouter>
   )
 }
