@@ -6,6 +6,8 @@ import ReportPreventPage from './pages/ReportPreventPage'
 import StoriesPage from './pages/StoriesPage'
 import './styles/App.css'
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import AccessibilityPage from './pages/AccessibilityPage.jsx'
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/get-help" element={<GetHelpPage />} />
         <Route path="/report-prevent" element={<ReportPreventPage />} />
         <Route path="/stories" element={<StoriesPage />} />
+        <Route path="/accessibility" element={<AccessibilityPage />} />
       </Routes>
+        <Footer />
     </BrowserRouter>
   )
 }

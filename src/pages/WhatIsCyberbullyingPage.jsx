@@ -8,7 +8,7 @@ import WhereCyberbullyingOccurs from "../components/whatiscyberbullying/WhereCyb
 import VideoHolder from "../components/whatiscyberbullying/VideoHolder";
 export default function WhatIsCyberbullyingPage() {
   return (
-    <main>
+    <main id="main-content">
       <h1>What is Cyberbullying?</h1>
       <Definition />
       

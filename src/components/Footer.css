@@ -1,0 +1,44 @@
+.footer {
+    background-color: #1a1a2e;
+    color: #ccc;
+    padding: 2rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-brand h3,
+.footer-mission h4,
+.footer-help h4,
+.footer-contact h4 {
+    color: #fff;
+    margin: 0 0 0.5rem;
+}
+
+.footer-brand p,
+.footer-help p,
+.footer-mission p,
+.footer-contact p {
+    font-size: 0.8rem;
+    max-width: 280px;
+}
+
+.footer-help strong {
+    color: #aa3bff;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    border-top: 1px solid #2e2e2e;
+    color: #6b6375;
+}

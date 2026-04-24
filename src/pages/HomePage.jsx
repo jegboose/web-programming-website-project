@@ -3,7 +3,7 @@
 
 export default function HomePage() {
   return (
-    <main>
+    <main id="main-content">
       <h1>Homepage</h1>
       <p>Build your homepage content here.</p>
     </main>

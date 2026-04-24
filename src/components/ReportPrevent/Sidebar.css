@@ -1,0 +1,89 @@
+.sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    padding: 20px;
+}
+
+.sidebar-item {
+    padding: 12px 0;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar-item button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.sidebar-dropdown div {
+    padding: 10px 16px;
+    color: #aaaaaa;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sidebar-dropdown div:hover {
+    color: white;
+}
+
+.report-content {
+    padding: 40px;
+    flex: 1;
+    text-align: left;
+}
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 0;
+}
+
+.report-content h1 {
+    text-align: center;
+}
+
+.report-content h2 {
+    text-align: center;
+}
+
+.page-layout {
+    display: flex;
+    text-align: left;
+}
+
+.report-content p {
+    color: white;
+}
+
+.platform-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.step-image {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.report-content h3 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.report-content iframe {
+    display: block;
+    margin: 0 auto;
+}
