@@ -31,3 +31,16 @@
 .navbar-links a:hover {
     text-decoration: underline;
 }
+ .skip-link {
+     position: absolute;
+     top: -100%;
+     left: 0;
+     background: #000;
+     color: #fff;
+     padding: 8px 16px;
+     z-index: 9999;
+ }
+
+ .skip-link:focus {
+     top: 0;
+ }

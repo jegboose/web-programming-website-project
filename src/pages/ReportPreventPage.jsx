@@ -32,7 +32,7 @@ export default function ReportPreventPage() {
 
     <div className="page-layout">
       <Sidebar onSelect={setSelected} selected={selected} />
-    <main className="report-content">
+    <main id="main-content" className="report-content">
       <h1>
         {selected === "Instagram" && <img src={instagramLogo} alt="Instagram" className="platform-logo"/>}
         {selected === "Snapchat" && <img src={snapchatLogo} alt="Snapchat" className="platform-logo"/>}

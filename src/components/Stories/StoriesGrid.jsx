@@ -3,7 +3,7 @@ import stories from "./storiesData.js";
 
 export default function StoriesGrid() {
     return (
-        <section>
+        <section className="stories-grid">
             {stories.map(story => (
                 <StoryCard key={story.id} {...story} />
             ))}

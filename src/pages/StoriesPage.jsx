@@ -19,7 +19,7 @@ export default function StoriesPage() {
       />
       <meta property="og:type" content="website" />
     </Helmet>
-    <main>
+    <main id="main-content">
       <StoriesHero/>
         <StoriesGrid/>
     </main>

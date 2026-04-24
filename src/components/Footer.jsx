@@ -18,6 +18,11 @@ export default function Footer() {
                     </p>
                 </div>
 
+                <div className="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:support@GWDOAT.org">support@GWDOAT.org</a> </p>
+                </div>
+
                 <div className="footer-help">
                     <h4>Need Help Now?</h4>
                     <p>National Helpline: <strong>1-800-273-8255</strong></p>
@@ -27,7 +32,7 @@ export default function Footer() {
             </div>
 
             <p className="footer-copy">
-                &copy; {new Date().getFullYear()} GWDOAT. All rights reserved.
+                &copy; {new Date().getFullYear()} GWDOAT. All rights reserved. | Last Updated: April 23, 2026
             </p>
 
             <Link to="/accessibility">Accessibility Statement</Link>

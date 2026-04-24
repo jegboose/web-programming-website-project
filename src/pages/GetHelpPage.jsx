@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./GetHelpPage.css"
+import "../styles/GetHelpPage.css"
 import CrisisApproach from "../components/get-help/CrisisApproach"
 import CrisisHotline from "../components/get-help/CrisisHotline"
 import CrisisParents from "../components/get-help/CrisisParents"
@@ -35,7 +35,7 @@ export default function GetHelpPage() {
       <meta property="og:type" content="website" />
     </Helmet>
     {/* Flex layout: sidebar on the left, content on the right */}
-    <main className="get-help-layout">
+    <main id="main-content" className="get-help-layout">
 
       {/* Sidebar component — handles all navigation button rendering */}
       <GetHelpSidebar sections={sections} active={active} setActive={setActive} />

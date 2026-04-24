@@ -3,7 +3,7 @@
 
 export default function WhatIsCyberbullyingPage() {
   return (
-    <main>
+    <main id="main-content">
       <h1>What is Cyberbullying?</h1>
       <p>Hayden builds this page.</p>
     </main>

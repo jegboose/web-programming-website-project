@@ -1,0 +1,10 @@
+.accessibility-list {
+    list-style: none;
+    padding: 0;
+}
+
+.accessibility-list li::before {
+    content: "✓" ;
+    color: green;
+    font-weight: bold;
+}

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import "../styles/AccessibilityPage.css"
 
 export default function AccessibilityPage() {
     return (
@@ -14,8 +15,8 @@ export default function AccessibilityPage() {
         <p>We are committed to making this website accessible to everyone, including people with disabilities. We aim to meet WCAG 2.1 level AA standards.</p>
 
         <h2>Features</h2>
-        <ul>
-            <li>Keyboard navigable</li>
+        <ul className="accessibility-list">
+            <li>Keyboard navigable - press <kbd>Tab</kbd> on any page to reveal a "Skip to main content" link that jumps past the navigation</li>
             <li>Screen reader friendly</li>
             <li>Alt text on all images</li>
             <li>Sufficient color contrast</li>
