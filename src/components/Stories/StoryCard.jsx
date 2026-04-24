@@ -29,7 +29,7 @@ export default function StoryCard({id, type, category, title, author, date, exce
                     <p>{source}</p>
                     <p>{date}</p>
                     <p>{excerpt}</p>
-                    <a href={url} target="_blank" rel="noreferrer">Read more.</a>
+                    <a href={url} target="_blank" rel="noreferrer">Read more &gt;</a>
                 </div>
             </article>
         )
@@ -44,7 +44,7 @@ export default function StoryCard({id, type, category, title, author, date, exce
             <p>{author}</p>
             <p>{date}</p>
             <p>{excerpt}</p>
-            <a href={url} target="_blank" rel="noreferrer">Read more.</a>
+            <a href={url} target="_blank" rel="noreferrer">Read more &gt; </a>
             </div>
 
         </article>
