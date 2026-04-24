@@ -76,3 +76,14 @@
     display: block;
     margin: 10px auto;
 }
+
+.report-content h3 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.report-content iframe {
+    display: block;
+    margin: 0 auto;
+}
