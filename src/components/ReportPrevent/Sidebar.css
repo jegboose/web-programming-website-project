@@ -69,3 +69,10 @@
     vertical-align: middle;
     margin-right: 10px;
 }
+
+.step-image {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
