@@ -6,6 +6,8 @@ import EffectsOfCyberbullying from "../components/whatiscyberbullying/EffectsOfC
 import TypeCards from "../components/whatiscyberbullying/TypeCards";
 import WhereCyberbullyingOccurs from "../components/whatiscyberbullying/WhereCyberbullyingOccurs";
 import VideoHolder from "../components/whatiscyberbullying/VideoHolder";
+import { Helmet } from "react-helmet";
+
 export default function WhatIsCyberbullyingPage() {
   return (
     <main id="main-content">
@@ -15,27 +17,27 @@ export default function WhatIsCyberbullyingPage() {
     <h2>Types of Cyberbullying</h2>
     <div className="card-grid">
       <TypeCards 
-        icon="src\components\whatiscyberbullying\imgs\hoot-to-another-person.png"
+        icon="src\assets\what-is-images\hoot-to-another-person.png"
         type="Harassment" 
         description="Sending repeated, unwanted messages to someone online." />
       <TypeCards 
-        icon="src\components\whatiscyberbullying\imgs\thats-what-the-mask-is.png"
+        icon="src\assets\what-is-images\thats-what-the-mask-is.png"
         type="Impersonation" 
         description="Pretending to be someone else online to cause harm or spread misinformation." />
       <TypeCards
-        icon="src\components\whatiscyberbullying\imgs\dox.png"
+        icon="src\assets\what-is-images\dox.png"
         type="Doxxing" 
         description="Publishing private or identifying information about someone without their consent." />
         <TypeCards 
-        icon="src\components\whatiscyberbullying\imgs\stalking.png"
+        icon="src\assets\what-is-images\stalking.png"
         type="Cyberstalking" 
         description="Using the internet to stalk or harass someone." />
         <TypeCards 
-        icon="src\components\whatiscyberbullying\imgs\exclude.png"
+        icon="src\assets\what-is-images\exclude.png"
         type="Exclusion" 
         description="Intentionally excluding someone from online groups or activities." />
         <TypeCards 
-        icon="src\components\whatiscyberbullying\imgs\trolling.png"
+        icon="src\assets\what-is-images\trolling.png"
         type="Trolling" 
         description="Posting inflammatory or off-topic messages to provoke others." />
       </div>
