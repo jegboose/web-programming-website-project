@@ -16,7 +16,7 @@ function Navbar() {
                     <li><Link to="/get-help">Get Help</Link></li>
                     <li><Link to="/report-prevent">Report & Prevent</Link></li>
                     <li><Link to="/stories">Stories</Link></li>
-                    <li><Link to="/accessibility Statement" aria-label="Accessibility"><RxAccessibility /></Link></li>
+                    <li><Link to="/accessibility" aria-label="Accessibility"><RxAccessibility /></Link></li>
 
                 </ul>
             </nav>
