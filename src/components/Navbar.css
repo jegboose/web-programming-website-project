@@ -28,6 +28,11 @@
     font-size: 0.95rem;
 }
 
+.navbar-links a svg {
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+
 .navbar-links a:hover {
     text-decoration: underline;
 }
