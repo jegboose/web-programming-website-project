@@ -1,4 +1,5 @@
 import './Footer.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -28,6 +29,8 @@ export default function Footer() {
             <p className="footer-copy">
                 &copy; {new Date().getFullYear()} GWDOAT. All rights reserved.
             </p>
+
+            <Link to="/accessibility">Accessibility Statement</Link>
         </footer>
     )
 
