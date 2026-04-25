@@ -1,5 +1,8 @@
 // Data for steps list for how to report on social media platform 
 
+// import banner
+import stopBullyingBanner from '../../assets/rpp-images/stop-cyberbullyin.png'
+
 // Instagram Report images
 import instagramStep1 from '../../assets/rpp-images/instagram-steps/instagram-report1.jpeg'
 import instagramStep2 from '../../assets/rpp-images/instagram-steps/instagram-report2.jpeg'
@@ -84,7 +87,18 @@ const stepsData = {
 }
 
 function StepsList({platform}) {
-    if (!platform) return <p>Select a platform to see how to report.</p>
+    if (!platform) return (
+        <div class="landing-content">
+            <img src={stopBullyingBanner} alt="StopCyberbullying" className="cyberbullying-banner"/>
+            <h2>How To Prevent Cyberbullying</h2>
+            <p>A showcase of different ways to report and prevent online bullying and harassment on social media.</p>
+            
+            <div class="action-calls">
+                <p>Select a provided social media platform from the sidebar, to see how to report online bullying and harassment.</p>
+                <p>Click on "How to Prevent" to learn how to stay safe online and Prevent online bullying.</p>
+            </div>
+        </div>
+    )
 
     const steps = stepsData[platform].steps 
 

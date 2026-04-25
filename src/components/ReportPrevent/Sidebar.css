@@ -87,3 +87,63 @@
     display: block;
     margin: 0 auto;
 }
+
+.prevention-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.prevention-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    text-align: center;
+}
+
+.prevent-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 8px 0 6px;
+    color: #5865F2;
+}
+
+.prevent-desc {
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.prevention-card p {
+    color: #333;
+}
+
+.cyberbullying-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.sidebar-link {
+    padding: 10px 16px;
+    color: #aaaaaa;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link:hover {
+    color: white;
+    border-left: 3px solid #5865F2;
+}
+
+.sidebar-link.active {
+    color: white;
+    border-left: 3px solid #5865F2;
+    padding-left: 13px;
+    background-color: rgba(74, 158, 255, 0.1);
+}

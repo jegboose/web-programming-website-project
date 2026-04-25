@@ -3,6 +3,7 @@
 import {useState} from 'react'
 import Sidebar from "../components/ReportPrevent/Sidebar"
 import StepsList from '../components/ReportPrevent/StepsList'
+import PreventList from '../components/ReportPrevent/PreventList'
 import "../components/ReportPrevent/Sidebar.css"
 
 // import rpp-images
@@ -40,7 +41,7 @@ export default function ReportPreventPage() {
 
         {selected === "prevent" ? "How to Prevent" : selected ? selected : "How to Report & Prevent"}
       </h1>
-      {selected === "prevent" ? <p>Prevention tips coming soon</p> : <StepsList platform={selected}/>}
+      {selected === "prevent" ? <PreventList/> : <StepsList platform={selected}/>}
     </main>
     </div>
   </>
