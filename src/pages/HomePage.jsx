@@ -48,7 +48,9 @@ export default function HomePage() {
                 <h2>Explore the Site</h2>
                 <div className="home-links-grid">
                     {pages.map(({to, label, desc}) => (
-                        <Link key={to} to={to} className="home-link-card">
+                        <Link key={to} to={to} className="home-link-card"
+                              onClick={() => window.scrollTo(0, 0)}
+                        >
                             <h3>{label}</h3>
                             <p>{desc}</p>
                         </Link>
