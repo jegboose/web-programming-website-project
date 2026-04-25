@@ -8,6 +8,8 @@ import WhereCyberbullyingOccurs from "../components/whatiscyberbullying/WhereCyb
 import VideoHolder from "../components/whatiscyberbullying/VideoHolder";
 import SideNavBar from "../components/whatiscyberbullying/SideNavBar";
 import Statistics from "../components/whatiscyberbullying/Statistics";
+import Quiz from "../components/whatiscyberbullying/Quiz";
+import StatsInfo from "../components/whatiscyberbullying/StatsInfo"
 import { Helmet } from "react-helmet";
 
 export default function WhatIsCyberbullyingPage() {
@@ -46,10 +48,12 @@ export default function WhatIsCyberbullyingPage() {
           type="Trolling" 
           description="Posting inflammatory or off-topic messages to provoke others." />
         </div>
+        <Quiz />
         <div className = "lists-wrapper">
           <WhereCyberbullyingOccurs/>
           <EffectsOfCyberbullying />
         </div>
+        <StatsInfo />
         <Statistics />
       </main>
     </div>

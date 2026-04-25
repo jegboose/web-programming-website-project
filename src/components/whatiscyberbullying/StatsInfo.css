@@ -1,0 +1,28 @@
+/* =====================
+   StatsInfo Component Styles
+   ===================== */
+
+#statistics-info {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#statistics-info h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+    margin-top: -20px;
+}
+
+#statistics-info p {
+    font-size: 20px;
+    color: #b1b1af;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+#statistics-info p:last-child {
+    margin-bottom: 0;
+}

@@ -44,6 +44,15 @@ export default function SideNav() {
 
                 <li>
                     <button
+                        className={active === "quiz" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("quiz")}
+                    >
+                        Take the Quiz
+                    </button>
+                </li>
+
+                <li>
+                    <button
                         className={active === "where" ? "side-nav-btn active" : "side-nav-btn"}
                         onClick={() => handleClick("where")}
                     >
@@ -62,8 +71,8 @@ export default function SideNav() {
 
                 <li>
                     <button
-                        className={active === "statistics" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("statistics")}
+                        className={active === "statistics-info" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("statistics-info")}
                     >
                         Statistics
                     </button>

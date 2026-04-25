@@ -52,8 +52,8 @@ export default function Statistics() {
     }, []);
 
     return (
-            <section id="statistics" className="statistics-section">
-                <h2>Cyberbullying by the numbers</h2>
+        <section id="statistics" className="statistics-section">
+            <h2>Cyberbullying by the numbers</h2>
                 <p className="statistics-description">
                     3,466 13-17 Year Old Students Surveyed in 2025
                 </p>
@@ -62,9 +62,9 @@ export default function Statistics() {
                         Cyberbullying Research Center
                     </a>
                 </p>
-                <div className="chart-container">
-                    <canvas ref={canvasRef}></canvas>
-                </div>
-            </section>
+            <div className="chart-container">
+                <canvas ref={canvasRef}></canvas>
+            </div>
+        </section>
     );
 }
