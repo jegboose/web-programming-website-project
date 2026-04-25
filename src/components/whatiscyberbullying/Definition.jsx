@@ -1,6 +1,7 @@
+import "./Definition.css";
 export default function Definition() {
     return (
-        <section id = "definition">
+        <section id="definition">
             <h2>About 1 in every 4 teens has experienced cyberbullying</h2>
             <a href ="https://cyberbullying.org/facts">Source: Cyberbullying Research Center</a>
             <p>Cyberbullying is the use of digital communication technology, 

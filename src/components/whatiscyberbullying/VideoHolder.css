@@ -9,7 +9,7 @@
     border: none;
     border-radius: 8px;
     display: block;
-    padding-left: 160px;
+    margin: 0 auto;
 }
 
 .video-wrapper figcaption {

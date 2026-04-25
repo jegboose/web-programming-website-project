@@ -1,0 +1,53 @@
+/* =====================
+   Definition Component Styles
+   ===================== */
+
+#definition {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+#definition h2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #a10707;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+/* Source link sits just under the heading */
+#definition a {
+    display: inline-block;
+    font-size: 11px;
+    color: #888780;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+
+#definition a:hover {
+    color: #1a4a6b;
+}
+
+#definition p {
+    font-size: 20px;
+    color: #81817e;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+#definition p:last-child {
+    margin-bottom: 0;
+}
+
+/* Inline links inside paragraphs */
+#definition p a {
+    display: inline;
+    font-size: inherit;
+    color: #185FA5;
+    margin-bottom: 0;
+}
+
+#definition p a:hover {
+    color: #1a4a6b;
+}

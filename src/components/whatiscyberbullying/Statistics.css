@@ -1,0 +1,48 @@
+/* =====================
+   Statistics Component Styles
+   ===================== */
+
+.statistics-section {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d3d1c7;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.statistics-section h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1a4a6b;
+    margin-bottom: 6px;
+}
+
+.statistics-description {
+    font-size: 13px;
+    color: #81817e;
+}
+
+.statistics-source {
+    font-size: 11px;
+    color: #888780;
+    margin-bottom: 24px;
+}
+
+.statistics-source a {
+    color: #185FA5;
+    text-decoration: underline;
+}
+
+.statistics-source a:hover {
+    color: #1a4a6b;
+}
+
+.chart-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.chart-container canvas {
+    width: 100%;
+    display: block;
+}

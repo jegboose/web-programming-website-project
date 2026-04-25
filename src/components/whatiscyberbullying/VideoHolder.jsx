@@ -1,7 +1,7 @@
 import './VideoHolder.css';
 export default function VideoHolder() {
     return (
-        <figure className="video-wrapper">
+        <figure id="video" className="video-wrapper">
             <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/0Xo8N9qlJtk?si=jCTg9oycNv_DaJNt" 
             title="YouTube video player" 
