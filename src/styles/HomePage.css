@@ -1,0 +1,129 @@
+/* ---Hero------------------------- */
+.home-hero {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.home-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.home-tagline {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+.home-cta {
+    display: inline-block;
+    background-color: #aa3bff;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.home-cta:hover {
+    background-color: #8e2de2;
+}
+
+/* ---Stats------------------------- */
+.home-stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 2rem 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.stat-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a4a6b;
+    max-width: 200px;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #81817e;
+    max-width: 200px;
+}
+
+.stat-source {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888780;
+    margin-top: 0.5rem;
+}
+
+.stat-source a {
+    color: #1a4a6b;
+}
+
+/* ---Quick Links------------------------- */
+.home-links {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.home-links h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.home-links-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.home-link-card {
+    display: block;
+    background: #ffffff;
+    border: 1px solid #d3d1c7;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.home-link-card:hover {
+    box-shadow: 0 8px 20px rgba(170, 59, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.home-link-card h3 {
+    color: #aa3bff;
+    margin-bottom: 0.5rem;
+}
+
+.home-link-card p {
+    color: #81817e;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.home-links-grid .home-link-card:nth-child(4) {
+    grid-column: 2;
+}

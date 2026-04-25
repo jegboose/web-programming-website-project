@@ -14,7 +14,6 @@
     margin: 0 auto;
 }
 
-.footer-brand h3,
 .footer-mission h4,
 .footer-help h4,
 .footer-contact h4 {
@@ -22,7 +21,6 @@
     margin: 0 0 0.5rem;
 }
 
-.footer-brand p,
 .footer-help p,
 .footer-mission p,
 .footer-contact p {

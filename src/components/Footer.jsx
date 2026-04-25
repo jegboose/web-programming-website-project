@@ -6,11 +6,6 @@ export default function Footer() {
         <footer className="footer">
             <div className="footer-content">
 
-                <div className="footer-brand">
-                    <h3>GWDOAT</h3>
-                    <p>Everyone should have a safe experience online.</p>
-                </div>
-
                 <div className="footer-mission">
                     <h4>Our Mission</h4>
                     <p>
