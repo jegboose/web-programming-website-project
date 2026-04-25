@@ -14,23 +14,32 @@ const stories = [
     },
     {
         id: 2,
-        type: "article",
-        category: "Expert Article",
-        title: "",
-        author: "",
-        source: "",
-        url: "",
-        date: "",
-        excerpt: ""
+        type: "video",
+        category: "Video",
+        title: "We Thought It Was Funny, But It Was Cyberbullying",
+        source: "YouTube",
+        videoId: "0YpA7JGRC-0",
+        date: "July 23, 2019",
     },
     {
         id: 3,
+        type: "article",
+        category: "Expert Article",
+        title: "Current perspectives: the impact of cyberbullying on adolescent health",
+        author: "Charisse L Nixon",
+        source: "PubMed Central",
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4126576/",
+        date: "August 1, 2014",
+        excerpt: "Cyberbullying has become an international public health concern among adolescents"
+    },
+    {
+        id: 4,
         type: "video",
         category: "Video",
-        title: "",
-        source: "",
-        videoId: "",
-        date: ""
+        title: "Cyberbully: YouTuber ClearlyChloe's Story",
+        source: "YouTube",
+        videoId: "jHXOq-NoX_g",
+        date: "August 2, 2015",
     },
 ]
 export default stories
