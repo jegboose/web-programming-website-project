@@ -3,6 +3,7 @@
     min-height: 100vh;
     background-color: #1a1a2e;
     padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .sidebar-item {
@@ -39,6 +40,7 @@
 }
 
 .sidebar-title {
+    cursor: pointer;
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -89,10 +91,11 @@
 }
 
 .prevention-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+    flex-direction: column;
 }
 
 .prevention-card {
@@ -146,4 +149,18 @@
     border-left: 3px solid #5865F2;
     padding-left: 13px;
     background-color: rgba(74, 158, 255, 0.1);
+}
+
+.prevention-card iframe {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+.landing-content p {
+    text-align: center;
+    color: white;
+    line-height: 1.8;
 }

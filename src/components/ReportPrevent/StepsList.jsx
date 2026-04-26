@@ -89,9 +89,11 @@ const stepsData = {
 function StepsList({platform}) {
     if (!platform) return (
         <div class="landing-content">
+            <h3>Prevent Cyberbullying!</h3>
             <img src={stopBullyingBanner} alt="StopCyberbullying" className="cyberbullying-banner"/>
-            <h2>How To Prevent Cyberbullying</h2>
-            <p>A showcase of different ways to report and prevent online bullying and harassment on social media.</p>
+            <h2>Around 67% of social media users do not belive that the platforms they are using are doing enough to fight and prevent cyberbullying</h2>
+            <p>Source: <a href="https://sqmagazine.co.uk/cyberbullying-statistics/" target="_blank" rel="noopener noreferrer">SQ Magazine</a></p>
+            <p>Here is a showcase of different ways to report and prevent online bullying and harassment on social media.</p>
             
             <div class="action-calls">
                 <p>Select a provided social media platform from the sidebar, to see how to report online bullying and harassment.</p>
