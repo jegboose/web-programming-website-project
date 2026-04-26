@@ -1,10 +1,10 @@
 import { useState } from "react"
 import "../styles/GetHelpPage.css"
-import CrisisApproach from "../components/get-help/CrisisApproach"
-import CrisisHotline from "../components/get-help/CrisisHotline"
-import CrisisParents from "../components/get-help/CrisisParents"
-import ReportingTools from "../components/get-help/ReportingTools"
-import GetHelpSidebar from "../components/get-help/GetHelpSidebar"
+import CrisisApproach from "../components/Get-Help/CrisisApproach"
+import CrisisHotline from "../components/Get-Help/CrisisHotline"
+import CrisisParents from "../components/Get-Help/CrisisParents"
+import ReportingTools from "../components/Get-Help/ReportingTools"
+import GetHelpSidebar from "../components/Get-Help/GetHelpSidebar"
 import { Helmet } from 'react-helmet'
 
 // Each section maps a sidebar label, description, and component together
@@ -29,7 +29,7 @@ export default function GetHelpPage() {
       <meta name="description" content="Find crisis hotlines, step-by-step advice for victims, parental guidance, and reporting tools to help stop cyberbullying." />
       <meta name="keywords" content="cyberbullying help, crisis hotline, report cyberbullying, cyberbullying victims, advice for parents, stop cyberbullying" />
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Brandon Ngeth" />
+      <meta name="author" content="GWDOAT" />
       <meta property="og:title" content="Get Help &amp; Resources | Prevent Cyberbullying" />
       <meta property="og:description" content="Find crisis hotlines, step-by-step advice for victims, parental guidance, and reporting tools to help stop cyberbullying." />
       <meta property="og:type" content="website" />

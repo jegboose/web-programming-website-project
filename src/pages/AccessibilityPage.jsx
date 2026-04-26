@@ -8,6 +8,8 @@ export default function AccessibilityPage() {
         <title>Accessibility | Prevent CyberBullying</title>
         <meta name="description" content="Our commitment to making this site accessible to all users." />
         <meta name="robots" content="index, follow" />
+        <meta name="keywords" content="accessibility, WCAG, screen reader, keyboard navigation, cyberbullying" />
+        <meta name="author" content="GWDOAT" />
     </Helmet>
 
     <main id="main-content">
