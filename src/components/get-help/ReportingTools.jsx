@@ -1,6 +1,7 @@
 import "./CrisisTemplate.css"
 import "./images.css"
 import reportCyberbullying from "../../assets/get-help-images/reportCyberbullying.png"
+import { Link } from "react-router-dom"
 
 export default function ReportingTools() {
     return (
@@ -8,8 +9,17 @@ export default function ReportingTools() {
             <img src={reportCyberbullying} alt="Report Bullying" className="reportBully-img"/>
             <h2>Report Cyberbullying</h2>
 
+            <h3 className="reporting-heading">Before You Report : </h3>
+            <ul className="reporting-list">
+                <li><strong>Take screenshots</strong> — capture all messages, posts, or images related to the bullying.</li><br />
+                <li><strong>Save the messages</strong> — don't delete any conversations, even if they're upsetting.</li><br />
+                <li><strong>Note the dates and times</strong> — record when each incident happened.</li><br />
+                <li><strong>Report on the platform</strong> — see our <Link to="/report-prevent">Report &amp; Prevent</Link> page for step-by-step guides on reporting through Instagram, Snapchat, Discord, and X.</li>
+            </ul>
+
             <h3 className="reporting-heading">Free for Students : </h3>
             <ul className="reporting-list">
+                <li><strong><a href="https://www.stopbullying.gov" target="_blank" rel="noopener noreferrer">StopBullying.gov</a></strong> — Official U.S. government resource with guidance on how to report cyberbullying to schools, social media platforms, and law enforcement.</li><br />
                 <li><strong><a href="https://www.cybersmile.org" target="_blank" rel="noopener noreferrer">Cybersmile Foundation</a></strong> — Free online support and chat for cyberbullying victims, available anytime.</li><br />
                 <li><strong><a href="https://www.report-it.org.uk" target="_blank" rel="noopener noreferrer">ReportIt</a></strong> — A free anonymous reporting tool students can use directly without school involvement.</li>
             </ul>

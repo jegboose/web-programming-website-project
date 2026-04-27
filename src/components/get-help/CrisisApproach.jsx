@@ -4,14 +4,15 @@ export default function CrisisApproach() {
     return (
         <section>
             {/* added a video */}
-            <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/64LNwrd0fHg"
-                title="Stopbullying.gov video"
-                aria-label="Video about cyberbullying awareness"
-                allowFullScreen
-            />
+            <div className="video-wrapper">
+                <iframe
+                    className="video-iframe"
+                    src="https://www.youtube.com/embed/64LNwrd0fHg"
+                    title="Stopbullying.gov video"
+                    aria-label="Video about cyberbullying awareness"
+                    allowFullScreen
+                />
+            </div>
             <br />
             <h2>Victim of Cyberbullying? Here's What to Do</h2>
             <ol className="approach-list">

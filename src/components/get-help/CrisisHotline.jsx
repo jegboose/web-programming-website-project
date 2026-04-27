@@ -3,12 +3,12 @@ import "./CrisisHotline.css"
 export default function CrisisHotline() {
     return (
         <section>
+            <h1>Get Help / Resources</h1>
+            <h2>Crisis Hotlines</h2>
             <div className="crisis-banner">
                 <p className="crisis-banner-text">Are you in crisis right now?</p>
                 <a href="tel:988" className="crisis-btn">Call or Text 988 Now</a>
             </div>
-            <h1>Get Help / Resources</h1>
-            <h2>Crisis Hotlines</h2>
             <p>
                 If you or a loved one are experiencing immediate distress from cyberbullying,
                 call or text <strong>988</strong> (Suicide &amp; Crisis Lifeline) in the US/Canada.
