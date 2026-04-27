@@ -14,9 +14,9 @@
     margin: 0 auto;
 }
 
-.footer-mission h4,
-.footer-help h4,
-.footer-contact h4 {
+.footer-mission h3,
+.footer-help h3,
+.footer-contact h3 {
     color: #fff;
     margin: 0 0 0.5rem;
 }
@@ -29,7 +29,7 @@
 }
 
 .footer-help strong {
-    color: #aa3bff;
+    color: #c47fff;
 }
 
 .footer-copy {
@@ -38,5 +38,5 @@
     padding-top: 1rem;
     font-size: 0.8rem;
     border-top: 1px solid #2e2e2e;
-    color: #6b6375;
+    color: #b0a8b9;
 }

@@ -20,7 +20,7 @@
 #definition a {
     display: inline-block;
     font-size: 11px;
-    color: #888780;
+    color: #4a4a47;
     text-decoration: underline;
     margin-bottom: 16px;
 }
@@ -31,7 +31,7 @@
 
 #definition p {
     font-size: 20px;
-    color: #b1b1af;
+    color: #4a4a47;
     line-height: 1.7;
     margin-bottom: 12px;
 }

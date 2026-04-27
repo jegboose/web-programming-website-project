@@ -9,7 +9,7 @@ function Navbar() {
         <>
             <a href="#main-content" className="skip-link">Skip to main content</a>
             <nav className="navbar">
-                <Link to="/"><img src={logo} alt="Pervent Cyberbullying Logo" className="navbar-logo" /></Link>
+                <Link to="/"><img src={logo} alt="Pervent Cyberbullying Logo" className="navbar-logo" width="147" height="80" /></Link>
                 <ul className="navbar-links">
                     <li><Link to="/" aria-label="Home"><FaHome /></Link></li>
                     <li><Link to="/what-is-cyberbullying">What Is It?</Link></li>
