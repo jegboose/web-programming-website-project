@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import WhatIsCyberbullyingPage from './pages/WhatIsCyberbullyingPage'
 import GetHelpPage from './pages/GetHelpPage'
@@ -11,7 +11,7 @@ import AccessibilityPage from './pages/AccessibilityPage.jsx'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/accessibility" element={<AccessibilityPage />} />
       </Routes>
         <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
