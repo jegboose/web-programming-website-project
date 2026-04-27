@@ -17,8 +17,8 @@ export default function SideNav() {
 
                 <li>
                     <button
-                        className={active === "definition" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("definition")}
+                        className={active === "main-content" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("main-content")}
                     >
                         Definition
                     </button>
