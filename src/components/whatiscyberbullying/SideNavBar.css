@@ -1,22 +1,18 @@
-/* =====================
-   SideNav Component Styles
-   ===================== */
-
 .side-nav {
     position: sticky;
     top: 40px;
-    width: 200px;
+    width: 150px;
     padding: 16px;
     border-left: 2px solid #d3d1c7;
     align-self: flex-start;
 }
 
 .side-nav-heading {
-    font-size: 11px;
+    font-size: 26px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #4a4a47;
+    color: #ffffff;
     margin-bottom: 12px;
 }
 
@@ -38,8 +34,8 @@
     border: none;
     padding: 6px 8px;
     border-radius: 6px;
-    font-size: 13px;
-    color: #4a4a47;
+    font-size: 20px;
+    color: #6b6b68;
     text-align: left;
     cursor: pointer;
     transition: color 0.2s ease, background 0.2s ease;
@@ -47,7 +43,7 @@
 
 .side-nav-btn:hover {
     color: #1a4a6b;
-    background: #f4f4f0;
+    background: #f2f0f4;
 }
 
 .side-nav-btn.active {
@@ -55,7 +51,6 @@
     font-weight: 500;
 }
 
-/* Indicator dot that grows into a bar when active */
 .side-nav-indicator {
     width: 4px;
     height: 4px;
@@ -71,7 +66,6 @@
     border-radius: 2px;
 }
 
-/* Hide on small screens */
 @media (max-width: 900px) {
     .side-nav {
         display: none;

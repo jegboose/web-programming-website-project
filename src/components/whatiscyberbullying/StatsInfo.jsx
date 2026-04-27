@@ -4,7 +4,7 @@ export default function StatsInfo() {
         <section id="statistics-info">
             <h2>Statistics</h2>
             <p>
-                The <a href="https://cyberbullying.org/2025-cyberbullying-data">Cyberbullying Research Center</a>- defines cyberbullying as the repeated 
+                The <a href="https://cyberbullying.org/2025-cyberbullying-data">Cyberbullying Research Center</a> - defines cyberbullying as the repeated 
                 and intentional harassment or mistreatment of another person using electronic 
                 devices such as cell phones or online platforms.
             </p>

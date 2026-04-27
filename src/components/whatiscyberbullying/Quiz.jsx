@@ -46,7 +46,7 @@ export default function Quiz() {
     const [finished, setFinished] = useState(false);
 
     const handleAnswer = (option) => {
-        // Don't let them change answer after selecting
+
         if (selected !== null) return;
         setSelected(option);
         if (option === questions[current].correct) {
@@ -77,7 +77,6 @@ export default function Quiz() {
         return "quiz-btn";
     };
 
-    // Results screen
     if (finished) {
         return (
             <section id="quiz" className="quiz-section">
@@ -103,7 +102,6 @@ export default function Quiz() {
         <section id="quiz" className="quiz-section">
             <h2>Is this cyberbullying? — Quiz</h2>
 
-            {/* Progress bar */}
             <div className="quiz-progress-track">
                 <div
                     className="quiz-progress-fill"
@@ -112,10 +110,8 @@ export default function Quiz() {
             </div>
             <p className="quiz-counter">Question {current + 1} of {questions.length}</p>
 
-            {/* Question */}
             <p className="quiz-question">{questions[current].question}</p>
 
-            {/* Answer options */}
             <div className="quiz-options">
                 {questions[current].options.map((option) => (
                     <button
@@ -128,12 +124,10 @@ export default function Quiz() {
                 ))}
             </div>
 
-            {/* Explanation shown after answering */}
             {selected !== null && (
                 <p className="quiz-explanation">{questions[current].explanation}</p>
             )}
 
-            {/* Next button only shows after answering */}
             {selected !== null && (
                 <button className="quiz-next-btn" onClick={handleNext}>
                     {current + 1 === questions.length ? "See results" : "Next question"}

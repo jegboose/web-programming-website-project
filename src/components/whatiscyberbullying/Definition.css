@@ -1,7 +1,3 @@
-/* =====================
-   Definition Component Styles
-   ===================== */
-
 #definition {
     padding: 20px;
     border-radius: 10px;
@@ -16,7 +12,6 @@
     line-height: 1.3;
 }
 
-/* Source link sits just under the heading */
 #definition a {
     display: inline-block;
     font-size: 11px;
@@ -31,16 +26,15 @@
 
 #definition p {
     font-size: 20px;
-    color: #6b6b68;
+    color: #999999;
     line-height: 1.7;
     margin-bottom: 12px;
 }
 
 #definition p:last-child {
-    margin-bottom: 0;
+    margin-bottom: -35px;
 }
 
-/* Inline links inside paragraphs */
 #definition p a {
     display: inline;
     font-size: inherit;

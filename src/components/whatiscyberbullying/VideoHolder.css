@@ -2,11 +2,10 @@
     margin: 0;
 }
 
-/* This trick keeps the video at 16:9 ratio on any screen size */
 .video-wrapper iframe {
     width: 75%;
     aspect-ratio: 16 / 9;
-    border: none;
+    border: #ffffff solid 12px;
     border-radius: 8px;
     display: block;
     margin: 0 auto;

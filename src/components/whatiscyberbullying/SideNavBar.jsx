@@ -26,8 +26,8 @@ export default function SideNav() {
                 
                 <li>
                     <button
-                        className={active === "video" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("video")}
+                        className={active === "video-header" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("video-header")}
                     >
                         Watch a Video
                     </button>
@@ -35,8 +35,8 @@ export default function SideNav() {
 
                 <li>
                     <button
-                        className={active === "types" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("types")}
+                        className={active === "types-header" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("types-header")}
                     >
                         Types of Cyberbullying
                     </button>
@@ -44,8 +44,8 @@ export default function SideNav() {
 
                 <li>
                     <button
-                        className={active === "quiz" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("quiz")}
+                        className={active === "quiz-header" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("quiz-header")}
                     >
                         Take the Quiz
                     </button>
@@ -53,19 +53,10 @@ export default function SideNav() {
 
                 <li>
                     <button
-                        className={active === "where" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("where")}
+                        className={active === "where-header" ? "side-nav-btn active" : "side-nav-btn"}
+                        onClick={() => handleClick("where-header")}
                     >
-                        Where it Occurs
-                    </button>
-                </li>
-
-                <li>
-                    <button
-                        className={active === "effects" ? "side-nav-btn active" : "side-nav-btn"}
-                        onClick={() => handleClick("effects")}
-                    >
-                        Effects
+                        Where & How
                     </button>
                 </li>
 

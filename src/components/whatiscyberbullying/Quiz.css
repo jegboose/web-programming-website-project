@@ -1,14 +1,10 @@
-/* =====================
-   Quiz Component Styles
-   ===================== */
-
 .quiz-section {
     padding: 20px;
     background: #ffffff;
     border: 1px solid #d3d1c7;
     border-radius: 10px;
     margin-bottom: 40px;
-    margin-top: 65px;
+    margin-top: 25px;
 }
 
 .quiz-section h2 {
@@ -18,7 +14,6 @@
     margin-bottom: 16px;
 }
 
-/* Progress bar */
 .quiz-progress-track {
     width: 100%;
     height: 6px;
@@ -42,7 +37,7 @@
     margin-bottom: 20px;
 }
 
-/* Question text */
+
 .quiz-question {
     font-size: 15px;
     color: #2c2c2a;
@@ -51,7 +46,6 @@
     font-weight: 500;
 }
 
-/* Answer buttons row */
 .quiz-options {
     display: flex;
     gap: 12px;
@@ -75,7 +69,6 @@
     border-color: #1a4a6b;
 }
 
-/* Correct answer highlight */
 .quiz-btn.correct {
     background: #EAF3DE;
     border-color: #3B6D11;
@@ -83,7 +76,6 @@
     font-weight: 500;
 }
 
-/* Wrong answer highlight */
 .quiz-btn.incorrect {
     background: #fdf0f0;
     border-color: #c0392b;
@@ -91,7 +83,6 @@
     font-weight: 500;
 }
 
-/* Explanation text */
 .quiz-explanation {
     font-size: 13px;
     color: #5f5e5a;
@@ -103,7 +94,6 @@
     margin-bottom: 20px;
 }
 
-/* Next / See results button */
 .quiz-next-btn {
     display: inline-block;
     padding: 10px 24px;
@@ -120,7 +110,6 @@
     background: #133a56;
 }
 
-/* Results screen */
 .quiz-results {
     text-align: center;
     padding: 20px 0;

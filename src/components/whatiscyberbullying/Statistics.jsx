@@ -28,7 +28,7 @@ export default function Statistics() {
                 ],
             },
             options: {
-                indexAxis: "y",        // makes it a horizontal bar chart
+                indexAxis: "y",        
                 responsive: true,
                 plugins: {
                     legend: { display: false },
@@ -44,9 +44,6 @@ export default function Statistics() {
                 },
             },
         });
-
-        // Cleanup — destroys the chart when component unmounts
-        // without this you get a "canvas already in use" error
         return () => chart.destroy();
 
     }, []);
