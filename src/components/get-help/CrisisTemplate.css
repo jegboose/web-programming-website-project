@@ -15,6 +15,10 @@
   height: 100%;
 }
 
+.approach-heading {
+  text-align: center;
+}
+
 .approach-list {
   text-align: left;
 }
