@@ -19,6 +19,9 @@ export default function HomePage() {
           <Helmet>
               <title>Prevent Cyberbullying - Everyone Should Have a Safe Experience Online</title>
               <meta name="description" content="Learn what cyberbullying is, find help, and discover how to report and prevent it." />
+              <meta name="keywords" content="cyberbullying, prevent cyberbullying, online safety, bullying prevention" />
+              <meta name="author" content="GWDOAT" />
+
           </Helmet>
 
         <main id="main-content">
