@@ -1,7 +1,7 @@
 // Data for steps list for how to report on social media platform 
 
 // import banner
-import stopBullyingBanner from '../../assets/rpp-images/stop-cyberbullyin.png'
+import stopBullyingBanner from '../../assets/rpp-images/stop-cyberbullyin.webp'
 
 // Instagram Report images
 import instagramStep1 from '../../assets/rpp-images/instagram-steps/instagram-report1.jpeg'
@@ -13,8 +13,8 @@ import instagramStep6 from '../../assets/rpp-images/instagram-steps/instagram-re
 
 // Snapchat Report Images
 import snapchatStep1 from '../../assets/rpp-images/snapchat-steps/snapchat-report2.jpeg'
-import snapchatStep2 from '../../assets/rpp-images/snapchat-steps/snapchat-report1.png'
-import snapchatStep3 from '../../assets/rpp-images/snapchat-steps/snapchat-report3.png'
+import snapchatStep2 from '../../assets/rpp-images/snapchat-steps/snapchat-report1.webp'
+import snapchatStep3 from '../../assets/rpp-images/snapchat-steps/snapchat-report3.webp'
 import snapchatStep4 from '../../assets/rpp-images/snapchat-steps/snapchat-report4.png'
 import snapchatStep5 from '../../assets/rpp-images/snapchat-steps/snapchat-report5.png'
 import snapchatStep6 from '../../assets/rpp-images/snapchat-steps/snapchat-report6.png'

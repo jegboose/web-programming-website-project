@@ -1,4 +1,4 @@
-import parentalHelp from "../../assets/get-help-images/parentalHelp.jpg"
+import parentalHelp from "../../assets/get-help-images/parentalHelp.webp"
 import "./CrisisTemplate.css"
 export default function CrisisParents() {
     return (

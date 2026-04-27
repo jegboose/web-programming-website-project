@@ -1,4 +1,4 @@
-import logo from '../assets/perventcyberbullying-logo.png'
+import logo from '../assets/perventcyberbullying-logo.webp'
 import { RxAccessibility } from "react-icons/rx";
 import { FaHome } from "react-icons/fa";
 import { Link } from 'react-router-dom'

@@ -8,7 +8,7 @@ import "../components/ReportPrevent/Sidebar.css"
 import ReportForm from '../components/ReportPrevent/Report'
 
 // import rpp-images
-import instagramLogo from '../assets/rpp-images/instagram-logo.png'
+import instagramLogo from '../assets/rpp-images/instagram-logo.webp'
 import snapchatLogo from '../assets/rpp-images/snapchat-logo.png'
 import discordLogo from '../assets/rpp-images/discord-logo.png'
 import xLogo from '../assets/rpp-images/x-logo.jpg'
