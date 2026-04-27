@@ -1,6 +1,7 @@
 // What is Cyberbullying? — Hayden
 // Defines cyberbullying, explains types (harassment, impersonation, doxxing, etc.), and gives real-world examples
 
+import "../styles/WhatIsCyberbullyingPage.css"
 import Definition from "../components/whatiscyberbullying/Definition";
 import EffectsOfCyberbullying from "../components/whatiscyberbullying/EffectsOfCyberbullying";
 import TypeCards from "../components/whatiscyberbullying/TypeCards";
@@ -14,12 +15,23 @@ import { Helmet } from "react-helmet";
 
 export default function WhatIsCyberbullyingPage() {
   return (
-    <div style ={{display: "flex"}}>
+    <>
+      <Helmet>
+        <title> What is Cyberbullying? | Prevent Cyberbullying</title>
+        <meta name="description" content="Learn what cyberbullying is, the different types, where it occurs, and its effects on victims."/>
+        <meta name="keywords" content="what is cyberbullying, types of cyberbullying, cyberbullying effects, harassment, doxxing, cyberstalking"/>
+        <meta name="author" content="GWDOAT"/>
+      </Helmet>
+    <div className="container">
       <SideNavBar />
-      <main id="main-content" style={{flex:1, padding: "0 40px"}}>
+      <main id="main-content">
         <h1>What is Cyberbullying?</h1>
         <Definition />
-        <VideoHolder />
+        <div className="video-section">
+          
+          <VideoHolder />
+        </div>
+        
         
       <h2>Types of Cyberbullying</h2>
       <div className="card-grid">
@@ -57,5 +69,6 @@ export default function WhatIsCyberbullyingPage() {
         <Statistics />
       </main>
     </div>
+    </>
   )
 }

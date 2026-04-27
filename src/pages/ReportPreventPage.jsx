@@ -5,6 +5,7 @@ import Sidebar from "../components/ReportPrevent/Sidebar"
 import StepsList from '../components/ReportPrevent/StepsList'
 import PreventList from '../components/ReportPrevent/PreventList'
 import "../components/ReportPrevent/Sidebar.css"
+import ReportForm from '../components/ReportPrevent/Report'
 
 // import rpp-images
 import instagramLogo from '../assets/rpp-images/instagram-logo.png'
@@ -39,9 +40,10 @@ export default function ReportPreventPage() {
         {selected === "Discord" && <img src={discordLogo} alt="Discord" className="platform-logo"/>}
         {selected === "X" && <img src={xLogo} alt="X" className="platform-logo"/>}
 
-        {selected === "prevent" ? "How to Prevent" : selected ? selected : "How to Report & Prevent"}
+        {selected === "prevent" ? "How to Prevent" : selected === "report-form" ? "Report an Incident" : selected ? selected : "How to Report & Prevent"}
       </h1>
-      {selected === "prevent" ? <PreventList/> : <StepsList platform={selected}/>}
+
+      {selected === "prevent" ? <PreventList/> : selected === "report-form" ? <ReportForm/> : <StepsList platform={selected}/>}
     </main>
     </div>
   </>
