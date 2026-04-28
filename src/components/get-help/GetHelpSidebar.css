@@ -1,6 +1,6 @@
 .sidebar-nav {
   min-width: 200px;
-  border-right: 2px solid #ccc;
+  border-right: 2px solid #2e303a;
   padding-right: 1rem;
 }
 
@@ -30,11 +30,11 @@
   font-weight: normal;
   width: 100%;
   outline: none;
-  color: #bbb;
+  color: #aaaaaa;
 }
 
 .sidebar-btn:hover {
-  background-color: rgba(0, 86, 179, 0.1);
+  background-color: rgba(88, 101, 242, 0.1);
 }
 
 .sidebar-btn:focus {
@@ -43,8 +43,8 @@
 
 .sidebar-btn.active {
   font-weight: bold;
-  color: #0056b3;
-  border-left: 3px solid #0056b3;
+  color: #5865F2;
+  border-left: 3px solid #5865F2;
 }
 
 .sidebar-desc {
