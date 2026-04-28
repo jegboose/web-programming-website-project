@@ -7,7 +7,7 @@
 #statistics-info h2 {
     font-size: 40px;
     font-weight: 500;
-    color: #1a4a6b;
+    color: #383863;
     margin-bottom: 16px;
     margin-top: -20px;
 }
@@ -20,5 +20,12 @@
 }
 
 #statistics-info p:last-child {
+    margin-bottom: 0;
+}
+
+#statistics-info a {
+    display: inline;
+    font-size: inherit;
+    color: #185FA5;
     margin-bottom: 0;
 }
