@@ -18,9 +18,23 @@ function ReportForm() {
         setFormData({...formData, [e.target.name]: e.target.value})
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
-        setStatus('success')
+        try {
+            const res = await fetch('https://formspree.io/f/mgorjyjq', {
+                method: 'POST',
+                headers: { 'Accept': 'application/json' },
+                body: new FormData(e.target)
+            })
+            if (res.ok) {
+                setStatus('success')
+                setFormData({ name: '', email: '', reportType: '', platform: '', description: '' })
+            } else {
+                setStatus('error')
+            }
+        } catch {
+            setStatus('error')
+        }
     }
 
     return (
