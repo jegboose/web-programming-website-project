@@ -26,7 +26,7 @@
     border-radius: 8px;
     border: 1px solid #444;
     background: #1a1a2e;
-    color: white;
+    color: #4a4a47;
     font-size: 14px;
     cursor: pointer;
     appearance: none;
@@ -37,7 +37,7 @@
 
 .form-group select option {
     background: #1a1a2e;
-    color: white;
+    color: #4a4a47;
 }
 
 .form-group select:focus {
@@ -47,7 +47,7 @@
 
 
 .form-group label {
-    color: white;
+    color: #4a4a47;
     font-size: 14px;
     margin-bottom: 8px;
     font-weight: 600;
@@ -59,7 +59,7 @@
     border-radius: 8px;
     border: 1px solid #444;
     background: #1a1a2e;
-    color: white;
+    color: #4a4a47;
     font-size: 14px;
 }
 
@@ -73,7 +73,7 @@
     align-items: center;
     gap: 8px;
     margin-bottom: 8px;
-    color: white;
+    color: #4a4a47;
 }
 
 .radio-group label {
