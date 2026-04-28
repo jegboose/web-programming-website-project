@@ -1,9 +1,37 @@
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1.5rem auto 2rem;
+}
+
+.video-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.approach-heading {
+  text-align: center;
+}
+
 .approach-list {
   text-align: left;
 }
 
+.approach-list li,
+.reporting-list li {
+  margin-bottom: 1.25rem;
+}
+
 .parental-img {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 .reporting-list {
@@ -12,4 +40,9 @@
 
 .reporting-heading  {
   text-align: left;
+  margin-top: 2rem;
+}
+
+.reportBully-img {
+  margin-bottom: 1.25rem;
 }

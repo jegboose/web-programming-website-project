@@ -1,5 +1,11 @@
 // What is Cyberbullying?
 // Defines cyberbullying, explains types (harassment, impersonation, doxxing, etc.), and gives real-world examples
+import harassmentIcon from "../assets/what-is-images/hoot-to-another-person.png"
+import impersonationIcon from "../assets/what-is-images/thats-what-the-mask-is.png"
+import doxxingIcon from "../assets/what-is-images/dox.png"
+import cyberstalkingIcon from "../assets/what-is-images/stalking.png"
+import exclusionIcon from "../assets/what-is-images/exclude.png"
+import trollingIcon from "../assets/what-is-images/trolling.png"
 
 import "../styles/WhatIsCyberbullyingPage.css"
 import Definition from "../components/whatiscyberbullying/Definition";
@@ -31,7 +37,6 @@ export default function WhatIsCyberbullyingPage() {
           <h2 id="video-header">Quick Video</h2>
           <VideoHolder />
         </div>
-        
         <h2 id="types-header">Types of Cyberbullying</h2>
           <div className="card-grid">
             <TypeCards 

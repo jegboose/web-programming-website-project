@@ -18,19 +18,9 @@ function ReportForm() {
         setFormData({...formData, [e.target.name]: e.target.value})
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
-        const res = await fetch('/api/contact', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(formData)
-        })
-        const data = await res.json()
-        if (res.ok) {
-            setStatus('success')
-        } else {
-            setStatus('error')
-        }
+        setStatus('success')
     }
 
     return (
