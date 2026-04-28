@@ -54,7 +54,7 @@
     text-transform: none;
     letter-spacing: 0.05em;
     font-weight: 600;
-    color: #7a00c2;
+    color: white;
     margin-bottom: 4px;
     padding: 8px 0;
 }
@@ -121,7 +121,7 @@
     font-size: 14px;
     font-weight: bold;
     margin: 8px 0 6px;
-    color: #5865F2;
+    color: white;
 }
 
 .prevent-desc {

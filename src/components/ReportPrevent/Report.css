@@ -47,7 +47,7 @@
 
 
 .form-group label {
-    color: #7a00c2;
+    color: white;
     font-size: 14px;
     margin-bottom: 8px;
     font-weight: 600;
@@ -73,7 +73,7 @@
     align-items: center;
     gap: 8px;
     margin-bottom: 8px;
-    color: #7a00c2;
+    color: white;
 }
 
 .radio-group label {
