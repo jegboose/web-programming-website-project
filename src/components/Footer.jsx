@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
 
             <p className="footer-copy">
-                &copy; {new Date().getFullYear()} GWDOAT. All rights reserved. | Last Updated: April 23, 2026
+                &copy; {new Date().getFullYear()} GWDOAT. All rights reserved. | Last Updated: April 28, 2026
             </p>
 
             <Link to="/accessibility">Accessibility Statement</Link>
