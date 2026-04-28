@@ -40,27 +40,27 @@ export default function WhatIsCyberbullyingPage() {
         <h2 id="types-header">Types of Cyberbullying</h2>
           <div className="card-grid">
             <TypeCards 
-              icon="src/assets/what-is-images/hoot-to-another-person.png"
+              icon={harassmentIcon}
               type="Harassment" 
               description="Sending repeated, unwanted messages to someone online." />
             <TypeCards 
-              icon="src/assets/what-is-images/thats-what-the-mask-is.png"
+              icon={impersonationIcon}
               type="Impersonation" 
               description="Pretending to be someone else online to cause harm or spread misinformation." />
             <TypeCards
-              icon="src/assets/what-is-images/dox.png"
+              icon={doxxingIcon}
               type="Doxxing" 
               description="Publishing private or identifying information about someone without their consent." />
               <TypeCards 
-              icon="src/assets/what-is-images/stalking.png"
+              icon={cyberstalkingIcon}
               type="Cyberstalking" 
               description="Using the internet to stalk or harass someone." />
               <TypeCards 
-              icon="src/assets/what-is-images/exclude.png"
+              icon={exclusionIcon}
               type="Exclusion" 
               description="Intentionally excluding someone from online groups or activities." />
               <TypeCards 
-              icon="src/assets/what-is-images/trolling.png"
+              icon={trollingIcon}
               type="Trolling" 
               description="Posting inflammatory or off-topic messages to provoke others." />
             </div>
